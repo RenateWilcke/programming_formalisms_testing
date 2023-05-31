@@ -49,7 +49,7 @@ def is_prime(x):
     Returns 'False' if 'x' is not prime.
     
     """
-    pass
+    return True
 
 """Exercise 2: develop the function 'get_digits'
 

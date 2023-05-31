@@ -23,4 +23,4 @@ class TestTestingQuestions(unittest.TestCase):
     def test_is_prime(self):
         """Test 'is_prime'."""
         self.assertIsNotNone(is_prime.__doc__)
-
+        self.assertTrue(is_prime(3))
