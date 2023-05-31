@@ -42,6 +42,13 @@ This function determines if a number is prime.
 """
 
 def is_prime(x):
+    """
+    Determine if 'x' is prime.
+
+    Returns 'True' if 'x' is prime.
+    Returns 'False' if 'x' is not prime.
+    
+    """
     pass
 
 """Exercise 2: develop the function 'get_digits'
