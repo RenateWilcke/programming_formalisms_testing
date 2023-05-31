@@ -2,6 +2,7 @@
 import unittest
 
 from src.pftesting_richelbilderbeek.testing_questions import (
+    is_prime,
     is_zero,
 )
 
@@ -18,3 +19,8 @@ class TestTestingQuestions(unittest.TestCase):
         self.assertFalse(is_zero(1))
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
+
+    def test_is_prime(self):
+        """Test 'is_prime'."""
+        self.assertIsNotNone(is_prime.__doc__)
+
