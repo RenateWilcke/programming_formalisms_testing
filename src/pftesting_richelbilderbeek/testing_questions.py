@@ -41,6 +41,8 @@ This function determines if a number is prime.
 [*] vague on purpose
 """
 
+def is_prime(x):
+    pass
 
 """Exercise 2: develop the function 'get_digits'
 
